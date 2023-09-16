@@ -103,7 +103,7 @@ Comment out/delete /* , */ the code form your Core.js line 224 and 332 in your o
 
 1. Now Deploy
     <br>
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ahil15/Xlicon-v2"> <img src="https://img.shields.io/badge/Heroku%20Deploy-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/false-eye/Xlicon-v2"> <img src="https://img.shields.io/badge/Heroku%20Deploy-purple?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
 
 </br>     
 
