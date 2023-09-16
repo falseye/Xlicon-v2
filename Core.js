@@ -535,7 +535,7 @@ updateStatus();
 
 
 //     const menulist = `
-//     Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Slasher to take your WhatsApp usage into next level.
+//     Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by:  𝑓𝑎𝑙𝑠𝑒 𝑒𝑦𝑒 to take your WhatsApp usage into next level.
         
 //        「 System Info 」
     
@@ -757,8 +757,8 @@ if (responses.hasOwnProperty(smallinput)) {
     if (isBanChat) return reply(mess.bangc);
     A17.sendMessage(from, { react: { text: "❤" , key: m.key }})
     
-    let { data } = await axios.get('https://api.github.com/false-eye');
-    teks = `*Script*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: https://github.com/ahil15/Xlicon-v2\n\nDont forget to follow me on *GitHub* and give a ⭐️ to my projects. `
+    let { data } = await axios.get('https://api.github.com/repo/false-eye');
+    teks = `*Script*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: https://github.com/false-eye\n\nDont forget to follow me on *GitHub* and give a ⭐️ to my projects. `
   /*  let buttons = [
     {buttonId: `${prefix}owner`, buttonText: {displayText: '🍁 DEVELOPER 🍁'}, type: 1}
     ] */
