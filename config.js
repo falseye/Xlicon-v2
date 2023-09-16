@@ -17,15 +17,15 @@ global.statusseen = true;                 //This is the new variable for control
 
 
 //
-global.Owner = ["8801853262586","8801928502256"];         //If you want singal number so global.Owner = ['8801928502256'] Change into your number.
-global.OwnerNumber = ["8801853262586","8801928502256"];   //If you want singal number so global.Owner = ['8801928502256'] Change into your number.
-global.ownertag = ["8801928502256"];
-global.OwnerName = "Slasher";
-global.BotName = "XLICON-MD";
-global.packname = "X-2.0 Bot";                             //Do not change.
-global.author = "By: Slasher";                               //Do not change.
-global.BotSourceCode = "https://github.com/ahil15/Xlicon-v2"; //Do not change.
-global.SupportGroupLink = "https://chat.whatsapp.com/EjsQvJNcFGVCSfaBEIxZm2"; 
+global.Owner = ["919539901834"];         //If you want singal number so global.Owner = ['8801928502256'] Change into your number.
+global.OwnerNumber = ["919539901834"];   //If you want singal number so global.Owner = ['8801928502256'] Change into your number.
+global.ownertag = ["919539901834"];
+global.OwnerName = " 𝑓𝑎𝑙𝑠𝑒 𝑒𝑦𝑒";
+global.BotName = "𝐺𝑟𝑖𝑓𝑓𝑖𝑡ℎ";
+global.packname = "𝟗𝑖𝑛𝑒 𝑥𝟑";                             //Do not change.
+global.author = " 𝑓𝑎𝑙𝑠𝑒 𝑒𝑦𝑒";                               //Do not change.
+global.BotSourceCode = "https://github.com/false-eye"; //Do not change.
+global.SupportGroupLink = "https://t.me/sarca_stics"; 
 
 
 //
@@ -38,11 +38,11 @@ global.openAiAPI = "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";
 
 
 //
-global.location = "Dhaka, Bangladesh";                   
+global.location = "Kochi, Kerala";                   
 global.reactmoji = "✅";
 global.themeemoji = "💖";
-global.vidmenu = { url: 'https://tenor.com/view/jujutsu-kaisen0-yuta-okkotsu-gif-26767662' };
-global.websitex = "https://github.com/ahil15";
+global.vidmenu = { url: 'https://tenor.com/view/juice-wrld-american-rapper-jarad-anthony-higgins-cigar-smoke-gif-17002109' };
+global.websitex = "https://github.com/false-eye";
 global.lolhuman = "KaysaS";
 
 
