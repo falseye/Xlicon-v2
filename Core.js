@@ -565,7 +565,7 @@ updateStatus();
     
 //     Type *-menu* or press any button below to start using *${global.BotName}*
     
-//     ©️ *${global.BotName}* All Rights Reserved by: *Slasher*
+//     ©️ *${global.BotName}* All Rights Reserved by: *𝑓𝑎𝑙𝑠𝑒 𝑒𝑦𝑒*
 //     `
 //         const qtod = m.quoted? "true":"false"
         
@@ -757,8 +757,8 @@ if (responses.hasOwnProperty(smallinput)) {
     if (isBanChat) return reply(mess.bangc);
     A17.sendMessage(from, { react: { text: "❤" , key: m.key }})
     
-    let { data } = await axios.get('https://api.github.com/repos/ahil15/Xlicon-v2');
-    teks = `*XLICON Script*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: https://github.com/ahil15/Xlicon-v2\n\nDont forget to follow me on *GitHub* and give a ⭐️ to my projects. `
+    let { data } = await axios.get('https://api.github.com/false-eye');
+    teks = `*Script*\n\n*Total Stars*: ${data.stargazers_count}⭐\n*Total Forks*: ${data.forks_count} forks\n*GitHub*: https://github.com/ahil15/Xlicon-v2\n\nDont forget to follow me on *GitHub* and give a ⭐️ to my projects. `
   /*  let buttons = [
     {buttonId: `${prefix}owner`, buttonText: {displayText: '🍁 DEVELOPER 🍁'}, type: 1}
     ] */
@@ -770,14 +770,14 @@ if (responses.hasOwnProperty(smallinput)) {
     buttons: buttons,
     headerType: 4, */
     contextInfo:{externalAdreply:{
-    title:"Powered by Slasher",
+    title:"𝟗𝑖𝑛𝑒 𝑥𝟑",
     body: " ", 
     thumbnail: fs.readFileSync("Assets/pic2.jpg"),
     mediaType:1,
-    //mediaUrl: 'https://wallpapercave.com/wp/wp10524580.jpg',
-    //sourceUrl: "https://wallpapercave.com/wp/wp10524580.jpg"
-    mediaUrl: 'github.com/ahil15/Xlicon-v2',
-    sourceUrl: "github.com/ahil15/Xlicon-v2"
+    //mediaUrl: 'https://telegra.ph/file/4aa0d2b8d49062304c9f2.jpg',
+    //sourceUrl: "https://telegra.ph/file/4aa0d2b8d49062304c9f2.jpg"
+    mediaUrl: 'github.com/false-eye',
+    sourceUrl: "github.com/false-eye"
     }}
 
     }
@@ -791,7 +791,7 @@ if (responses.hasOwnProperty(smallinput)) {
       if (isBanChat) return reply(mess.bangc);
 
       A17.sendMessage(from, { react: { text: "💫" , key: m.key }})
-    reply(`⚙ *My developer's group:* ⚙ https://chat.whatsapp.com/EjsQvJNcFGVCSfaBEIxZm2`)
+    reply(`⚙ *My developer's channel:* ⚙ https://t.me/sarca_stics`)
     }
     break;
     
@@ -801,7 +801,7 @@ case 'repo': case 'botrepo': {
   if (isBanChat) return reply(mess.bangc);
   
   A17.sendMessage(from, { react: { text: "💫" , key: m.key }})
-    reply(`⚙ My Source Code is </> - https://github.com/ahil15/Xlicon-v2`)
+    reply(`⚙ My Source Code is </> - https://github.com/false-eye`)
     }
     break;
 
@@ -986,7 +986,7 @@ A17.sendMessage(from, { react: { text: '❤', key: m.key }});
     const systemName = os.platform() + ' ' + os.release();
   
     const respon = `
-  🤖 *Xlicon's Server Info* 🤖
+  🤖 *Server Info* 🤖
   
   *System*: ${systemName}
   
@@ -2593,7 +2593,7 @@ break;
 case 'ghstalk': case 'githubstalk': case'github': {
   A17.sendMessage(from, { react: { text: "🔍" , key: m.key }})
 
-  if (!q) return reply(`Give me a user name like *${prefix}github ahil15*`)
+  if (!q) return reply(`Give me a user name like *${prefix}github false-eye*`)
 
   gitdata = await githubstalk.githubstalk(`${q}`)
   A17.sendMessage(m.chat, { image: { url : gitdata.profile_pic }, caption: 
@@ -2646,7 +2646,7 @@ if (isBanChat) return reply(mess.bangc);
 A17.sendMessage(from, { react: { text: "🫡" , key: m.key }})
 
 let anu = await store.chats.all().filter(v => v.id.endsWith('@g.us')).map(v => v.id)
-let teks = ` 「  Xlicon's group user list  」\n\nTotal ${anu.length} users are using bot in Groups.`
+let teks = ` 「  group user list  」\n\nTotal ${anu.length} users are using bot in Groups.`
 for (let i of anu) {
 let metadata = await A17.groupMetadata(i)
 if (metadata.owner === "undefined") {
@@ -3622,7 +3622,7 @@ case 'invite': {
   if (!isAdmins && !isCreator) return reply(mess.useradmin)
   A17.sendMessage(from, { react: { text: "🫡" , key: m.key }})
   
-if (!text) return reply (`Enter the number you want to invite to the group...\n\nExample :\n*${prefix + command}* 8801853262586`)
+if (!text) return reply (`Enter the number you want to invite to the group...\n\nExample :\n*${prefix + command}* 919539901834`)
 if (text.includes('+')) return reply(`Enter the number together without *+*`)
 if (isNaN(text)) return reply(`Enter only the numbers plus your country code without spaces`)
 let group = m.chat
@@ -4889,7 +4889,7 @@ case 'yts': case 'ytsearch': {
  if (isBanChat) return reply(mess.bangc);
  A17.sendMessage(from, { react: { text: "📍" , key: m.key }}) 
 
- if (!args.join(" ")) return reply(`Example : -yts Heat waves`)
+ if (!args.join(" ")) return reply(`Example : -yts Cross The Globe`)
  let yts = require("youtube-yts")
  let search = await yts(args.join(" "))
  let teks = '```「 YouTube search Engine 」```\n\n Search Term: '+text+'\n\n'
@@ -4922,7 +4922,7 @@ case 'music': case 'p': case 'play': case 'song': case 'ytplay': {
  ]
  let buttonMessage = {
  image: { url: anu.thumbnail },
- caption: `「  Xʟɪᴄᴏɴ Yᴏᴜᴛᴜʙᴇ Pʟᴀʏᴇʀ 2.0  」
+ caption: `「 Yᴏᴜᴛᴜʙᴇ Pʟᴀʏᴇʀ 2.0  」
 
 ✨ *Title :* ${anu.title}
 
@@ -5025,7 +5025,7 @@ const YT=require('./lib/ytdl-core')
   let search = await yts(text)
   let anu = search.videos[0]
   const ytmp4play = await YT.mp4(anu.url)
-A17.sendMessage(from, {video:{url:ytmp4play.videoUrl}, mimetype:"video/mp4", caption:anu.title+' By *Xʟɪᴄᴏɴ-Mᴜʟɪᴅᴇᴠɪᴄᴇ*',}, {quoted:m})
+A17.sendMessage(from, {video:{url:ytmp4play.videoUrl}, mimetype:"video/mp4", caption:anu.title+' By *𝟗𝑖𝑛𝑒 𝑥𝟑*',}, {quoted:m})
 }
 
 break;
@@ -5049,7 +5049,7 @@ let buttons = [
 ]
 let buttonMessage = {
 image: { url: anu.thumbnail },
-caption: `「  Xʟɪᴄᴏɴ Yᴏᴜᴛᴜʙᴇ Pʟᴀʏᴇʀ 2.0  」
+caption: `「 Yᴏᴜᴛᴜʙᴇ Pʟᴀʏᴇʀ 2.0  」
 
 ✨ *Title :* ${anu.title}
 
@@ -5077,7 +5077,7 @@ case 'ytmp3': {
   const YT=require('./lib/ytdl-core')
   const ytmp3play2 = await YT.mp3(text)
   
-await A17.sendMessage(from, {document: fs.readFileSync(ytmp3play2.path),fileName:'Xlicon_YTmp3_Downloader.mp3',mimetype: 'audio/mpeg',}, {quoted:m})
+await A17.sendMessage(from, {document: fs.readFileSync(ytmp3play2.path),fileName:'YTmp3_Downloader.mp3',mimetype: 'audio/mpeg',}, {quoted:m})
 }
 break;
 
@@ -5088,7 +5088,7 @@ if (isBanChat) return reply(mess.bangc);
 A17.sendMessage(from, { react: { text: "🍁" , key: m.key }})
 const YT=require('./lib/ytdl-core')
   const ytmp4play2 = await YT.mp4(text)
-A17.sendMessage(from, {video:{url:ytmp4play2.videoUrl}, mimetype:"video/mp4", caption:'Downloaded by *Xʟɪᴄᴏɴ-Mᴜʟɪᴅᴇᴠɪᴄᴇ*',}, {quoted:m})
+A17.sendMessage(from, {video:{url:ytmp4play2.videoUrl}, mimetype:"video/mp4", caption:'Downloaded by *𝟗𝑖𝑛𝑒 𝑥𝟑*',}, {quoted:m})
 }
 break;
 
@@ -5418,7 +5418,7 @@ case 'handsomecheck':
   if (isBan) return reply(mess.banned);
   if (isBanChat) return reply(mess.bangc);
 A17.sendMessage(from, { react: { text: "😺" , key: m.key }})
-      if (!text) return reply(`Tag Someone, Example : ${prefix + command} @⁨Nᴏᴛ Sʟᴀꜱʜᴇʀ'ꜱ ᵃʳᶜ⁩`)
+      if (!text) return reply(`Tag Someone, Example : ${prefix + command} @⁨ 𝑓𝑎𝑙𝑠𝑒 𝑒𝑦𝑒`)
         const gan = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
         const teng = gan[Math.floor(Math.random() * gan.length)]
 A17.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${teng}%*` }, { quoted: m })
@@ -5430,7 +5430,7 @@ case 'beautifulcheck':
   if (isBanChat) return reply(mess.bangc);
   A17.sendMessage(from, { react: { text: "😺" , key: m.key }})
   
-      if (!text) return reply(`Tag Someone, Example : ${prefix + command} @⁨Nᴏᴛ Sʟᴀꜱʜᴇʀ'ꜱ ᵃʳᶜ⁩`)
+      if (!text) return reply(`Tag Someone, Example : ${prefix + command} @⁨ 𝑓𝑎𝑙𝑠𝑒 𝑒𝑦𝑒`)
         const can = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
         const tik = can[Math.floor(Math.random() * can.length)]
 A17.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${tik}%*` }, { quoted: m })
@@ -5451,7 +5451,7 @@ case 'greatcheck':
                       if (isBanChat) return reply(mess.bangc);
   A17.sendMessage(from, { react: { text: "😺" , key: m.key }})
   
-      if (!text) return reply(`Tag Someone, Example : ${prefix + command} @⁨Nᴏᴛ Sʟᴀꜱʜᴇʀ'ꜱ ᵃʳᶜ⁩`)
+      if (!text) return reply(`Tag Someone, Example : ${prefix + command} @⁨ 𝑓𝑎𝑙𝑠𝑒 𝑒𝑦𝑒⁩`)
         const sangeh = ['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
         const sange = sangeh[Math.floor(Math.random() * sangeh.length)]
 A17.sendMessage(from, { text: `*${command}*\n\nName : ${q}\nAnswer : *${sange}%*` }, { quoted: m })
@@ -5463,7 +5463,7 @@ case 'charactercheck':
   if (isBanChat) return reply(mess.bangc);
 A17.sendMessage(from, { react: { text: "🤧" , key: m.key }})
 
-        if (!text) return reply(`Tag Someone, Example : ${prefix + command} @⁨Nᴏᴛ Sʟᴀꜱʜᴇʀ'ꜱ ᵃʳᶜ⁩`)
+        if (!text) return reply(`Tag Someone, Example : ${prefix + command} @⁨ 𝑓𝑎𝑙𝑠𝑒 𝑒𝑦𝑒⁩`)
         const A17tttt =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
         const taky = A17tttt[Math.floor(Math.random() * A17tttt.length)]
         A17.sendMessage(from, { text: `Character Check : ${q}\nAnswer : *${taky}*` }, { quoted: m })
@@ -5555,7 +5555,7 @@ A17.sendMessage(from, { react: { text: "🌝" , key: m.key }})
         "say i love depak kalal through voice note",
         "write i am feeling horny and put it on status, u can delete it only after 5hrs",
         "write i am lesbian and put it on status, u can delete only after 5hrs",
-        "kiss your mommy or papa and say i love you😌",
+        "say i love you to @ 𝑓𝑎𝑙𝑠𝑒 𝑒𝑦𝑒 😌",
         "put your father name on status for 5hrs",
         "send abusive words in any grup, excepting this grup, and send screenshot proof here"
    ]
@@ -6635,15 +6635,15 @@ break;
   A17.sendMessage(from, { react: { text: "✨" , key: m.key }})      
   const helpmenu = `Konnichiwaa! *${pushname}* Senpai...!! ${nowtime} ,
   
-Hemlo, I am "Xlicon-Multidevice" a WhatsApp bot create and recode by Slasher to do everything that is possible on WhatsApp based on WhatsApp Multi Device(MD) Support.
+Hemlo, I am "𝟗𝑖𝑛𝑒 𝑥𝟑" a WhatsApp bot recoded by  𝑓𝑎𝑙𝑠𝑒 𝑒𝑦𝑒
 
   ⨳    *Bot user name :* ${pushname} 
   ⨳    *My prefix is :*  ${prefix}
   ⨳    *Owner name :* ${global.OwnerName} 
   ⨳    *Bot runtime :* ${runtime(process.uptime())} 
   ⨳    *Platform :* Linux
-  ⨳    *Founder :* Slasher!!
-  ⨳    *Base Credit :* Kai..!!
+  ⨳    *Founder :*  𝑓𝑎𝑙𝑠𝑒 𝑒𝑦𝑒
+  ⨳    *Base Credit :* slasher
   ⨳    *Time* : ${kaitime}
   ⨳    *Date* : ${kaidate}
 
